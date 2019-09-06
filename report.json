@@ -1,0 +1,114 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-06T10:04:54.366Z",
+        "line": 12,
+        "name": "search product",
+        "description": "",
+        "id": "search-product;search-product;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 46079756200,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "i click on the Signinbutton",
+            "match": {
+              "location": "case3.i_click_on_the_Signin_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 113434100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user enter \"Lalitha\" in the user fields",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lalitha\"",
+                  "offset": 15
+                }
+              ],
+              "location": "case3.the_user_enter_in_the_user_fields(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 129495800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enter the \"Password123\" in the password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Password123\"",
+                  "offset": 10
+                }
+              ],
+              "location": "case3.enter_the_in_the_password_field(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1019804400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on the login button",
+            "match": {
+              "location": "case3.click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77540400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click on the \"head\" in the search field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"head\"",
+                  "offset": 18
+                }
+              ],
+              "location": "case3.user_click_on_the_in_the_search_field(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1808019700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "page  goes to product page",
+            "match": {
+              "location": "case3.page_goes_to_product_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "search product",
+    "description": "",
+    "id": "search-product",
+    "keyword": "Feature",
+    "uri": "classpath:first/case3.feature",
+    "tags": []
+  }
+]
